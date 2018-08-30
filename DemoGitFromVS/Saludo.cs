@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace DemoGitFromVS
 {
-    class Program
+    class Saludo
     {
-        static void Main(string[] args)
+        public string Mensaje { get; set; }
+
+        public Saludo()
         {
-            var saludo = new Saludo();
-            Console.WriteLine(saludo.Mensaje);
+            Mensaje = "Hola desde Visual Studio";
         }
     }
 }
+
